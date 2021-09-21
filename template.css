@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .fullDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topDiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+  }
+  .subscribe {
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .large {
+    width: 250px;
+  }
+  .signUp {
+    padding: 2px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top: 6px;
+    height: 20px;
+  }
+  .spamFullDiv {
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-between;
+  }
+  .spamWorld {
+    padding-right:20px;
+    cursor: pointer;
+  }
+  .spamUs {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamTechnology {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamDesign {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamCulture {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamBusiness {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamPolitics {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamOpinion {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamScience {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamHealth {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamStyle {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .spamTravel {
+    cursor: pointer;
+  }
+  .topFullBlackBox {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+  }
+  .topHeading {
+    width: 300px;
+  }
+  .topPara {
+    width: 400px;
+    padding-top: 10px;
+  }
+  .blackBoxContinue {
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .worldDesignFullBox {
+    display: flex;
+    margin-top: 20px;
+  }
+  .worldFullBox {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    background-color: grey;
+    margin-right: 20px;
+  }
+  .thumbnail {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    color: white;
+  }
+  .worldB0x {
+    padding: 20px;
+    border-right: 1px solid black;
+    background-color: white;
+  }
+  .world {
+    color: blue;
+  }
+  .featured {
+    padding-top: 10px;
+  }
+  .worldPara {
+    padding-top: 10px;
+  }
+  .worldContinue {
+    padding-top: 20px;
+    color: lightblue;
+  }
+  .designFullBox {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    background-color: grey;
+    margin-left: 20px;
+  }
+  .designBox {
+    padding: 20px;
+    border-right: 1px solid black;
+    background-color: white;
+  }
+  .secondThumbnail {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    color: white;
+  }
+  .design {
+    color: green;
+  }
+  .title {
+    padding-top: 10px;
+  }
+  .designPara {
+    padding-top: 10px;
+  }
+  .continueTwo {
+    padding-top: 20px;
+    color: lightblue;
+  }
+  .thirdFullDiv{
+    display:flex;
+    padding-top:30px;
+  }
+  .thirdLeftDiv{
+  width:700px;
+  }
+  .aboutDiv{
+    width:300px;
+    background:lightgrey;
+    padding:20px;
+  }
+  .fireHose{
+    border-bottom:1px solid grey;
+    width:650px;
+    padding-bottom:15px;
+  }
+  .fireHosePara{
+    padding-top:20px;
+    border-bottom:1px solid grey;
+    padding-bottom:15px; 
+    width:650px;
+  }
+  .samplePara{
+    padding-top:20px;
+    width:700px;
+  }
+  .sampleSecondFullPara{
+    padding-top:10px;
+    width:650px;
+  }
+  .sampleThirdPara{
+    padding-top:10px;
+  }
+  .sampleFourthPara{
+    padding-top:10px;
+    width:700px;
+  }
+  .archives{
+    padding:20px;
+  }
+  .march{
+    padding-top:10px;
+    color:blue;
+    cursor:pointer;
+  }
+  .february{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .january{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }              
+  .december{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .november{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .october{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .september{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .august{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .july{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .june{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .may{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .april{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .elsewhere{
+    padding:20px;
+  }
+  .github{
+    padding-top:10px;
+    color:blue;
+    cursor:pointer;
+  }
+  .twitter{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .facebook{
+    padding-top:5px;
+    color:blue;
+    cursor:pointer;
+  }
+  .headingFullDiv{
+    width:670px;
+    padding-top:20px;
+  }
+  .headingFirstPara{
+    padding-top:10px;
+  }
+  .subheadingFullDiv{
+    padding-top:20px;
+    width:650px;
+  }
+  .subheadingFirstPara{
+    padding-top:20px;
+  }
+  .subheadingsecondpara{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .subheadingTwo{
+    padding-top:20px;
+    width:670px;
+  }
+  .subheadingTwoFirstPara{
+  padding-top:10px;
+  }
+  .points{
+  padding:30px;
+  }
+  .secondPoints{
+    padding:30px;
+  }
+  .blogPost{
+  padding-top:50px;
+    width:660px;
+  }
+  .blogFirstPara{
+  padding-top:20px;
+    padding-bottom:20px;
+  }
+  .blogSecondPara{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .newfeature{
+  padding-top:50px;
+    width:660px;
+  }
+  .newFeatureFirstPara{
+    padding-top:20px;
+  }
+  .newFeaturePoints{
+    padding:30px;
+  }
+  .newFeatureSecondPara{
+    padding-top:20px;
+  }
+  .twoButton{
+    display:flex;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  .older{
+    border:1px solid blue;
+    padding:10px;
+    width:40px;
+    margin-right:5px;
+  }
+  .newer{
+      border:1px solid blue;
+    padding:10px;
+    width:40px;
+    margin-left:5px;
+  }
+  .blogTemplate{
+    border-top:1px solid grey;
+    text-align:center;
+    padding:30px;
+  }
+  .backTop{
+    padding:20px;
+  }
