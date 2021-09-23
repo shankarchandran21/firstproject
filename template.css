@@ -1,364 +1,449 @@
 * {
     padding: 0;
     margin: 0;
-  }
-  .fullDiv {
+}
+
+.fullDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .topDiv {
+}
+
+.topDiv {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgrey;
-  }
-  .subscribe {
+}
+
+.subscribe {
     padding-top: 10px;
     cursor: pointer;
-  }
-  .large {
+}
+
+.large {
     width: 250px;
-  }
-  .signUp {
+}
+
+.signUp {
     padding: 2px;
     cursor: pointer;
     border: 1px solid black;
     margin-top: 6px;
     height: 20px;
-  }
-  .spamFullDiv {
+}
+
+.spamFullDiv {
     display: flex;
     padding-top: 10px;
-    justify-content:space-between;
-  }
-  .spamWorld {
-    padding-right:20px;
-    cursor: pointer;
-  }
-  .spamUs {
+    justify-content: space-between;
+}
+
+.spamWorld {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamTechnology {
+}
+
+.spamUs {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamDesign {
+}
+
+.spamTechnology {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamCulture {
+}
+
+.spamDesign {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamBusiness {
+}
+
+.spamCulture {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamPolitics {
+}
+
+.spamBusiness {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamOpinion {
+}
+
+.spamPolitics {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamScience {
+}
+
+.spamOpinion {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamHealth {
+}
+
+.spamScience {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamStyle {
+}
+
+.spamHealth {
     padding-right: 20px;
     cursor: pointer;
-  }
-  .spamTravel {
+}
+
+.spamStyle {
+    padding-right: 20px;
     cursor: pointer;
-  }
-  .topFullBlackBox {
+}
+
+.spamTravel {
+    cursor: pointer;
+}
+
+.topFullBlackBox {
     border: 1px solid black;
     padding: 20px;
     margin-top: 20px;
     background-color: black;
     color: white;
-  }
-  .topHeading {
+}
+
+.topHeading {
     width: 300px;
-  }
-  .topPara {
+}
+
+.topPara {
     width: 400px;
     padding-top: 10px;
-  }
-  .blackBoxContinue {
+}
+
+.blackBoxContinue {
     padding-top: 10px;
     cursor: pointer;
-  }
-  .worldDesignFullBox {
+}
+
+.worldDesignFullBox {
     display: flex;
     margin-top: 20px;
-  }
-  .worldFullBox {
+}
+
+.worldFullBox {
     display: flex;
     border: 1px solid black;
     width: 500px;
     background-color: grey;
     margin-right: 20px;
-  }
-  .thumbnail {
+}
+
+.thumbnail {
     text-align: center;
     width: 300px;
     margin: auto;
     color: white;
-  }
-  .worldB0x {
+}
+
+.worldB0x {
     padding: 20px;
     border-right: 1px solid black;
     background-color: white;
-  }
-  .world {
+}
+
+.world {
     color: blue;
-  }
-  .featured {
+}
+
+.featured {
     padding-top: 10px;
-  }
-  .worldPara {
+}
+
+.worldPara {
     padding-top: 10px;
-  }
-  .worldContinue {
+}
+
+.worldContinue {
     padding-top: 20px;
     color: lightblue;
-  }
-  .designFullBox {
+}
+
+.designFullBox {
     display: flex;
     border: 1px solid black;
     width: 500px;
     background-color: grey;
     margin-left: 20px;
-  }
-  .designBox {
+}
+
+.designBox {
     padding: 20px;
     border-right: 1px solid black;
     background-color: white;
-  }
-  .secondThumbnail {
+}
+
+.secondThumbnail {
     text-align: center;
     width: 300px;
     margin: auto;
     color: white;
-  }
-  .design {
+}
+
+.design {
     color: green;
-  }
-  .title {
+}
+
+.title {
     padding-top: 10px;
-  }
-  .designPara {
+}
+
+.designPara {
     padding-top: 10px;
-  }
-  .continueTwo {
+}
+
+.continueTwo {
     padding-top: 20px;
     color: lightblue;
-  }
-  .thirdFullDiv{
-    display:flex;
-    padding-top:30px;
-  }
-  .thirdLeftDiv{
-  width:700px;
-  }
-  .aboutDiv{
-    width:300px;
-    background:lightgrey;
-    padding:20px;
-  }
-  .fireHose{
-    border-bottom:1px solid grey;
-    width:650px;
-    padding-bottom:15px;
-  }
-  .fireHosePara{
-    padding-top:20px;
-    border-bottom:1px solid grey;
-    padding-bottom:15px; 
-    width:650px;
-  }
-  .samplePara{
-    padding-top:20px;
-    width:700px;
-  }
-  .sampleSecondFullPara{
-    padding-top:10px;
-    width:650px;
-  }
-  .sampleThirdPara{
-    padding-top:10px;
-  }
-  .sampleFourthPara{
-    padding-top:10px;
-    width:700px;
-  }
-  .archives{
-    padding:20px;
-  }
-  .march{
-    padding-top:10px;
-    color:blue;
-    cursor:pointer;
-  }
-  .february{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .january{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }              
-  .december{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .november{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .october{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .september{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .august{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .july{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .june{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .may{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .april{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .elsewhere{
-    padding:20px;
-  }
-  .github{
-    padding-top:10px;
-    color:blue;
-    cursor:pointer;
-  }
-  .twitter{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .facebook{
-    padding-top:5px;
-    color:blue;
-    cursor:pointer;
-  }
-  .headingFullDiv{
-    width:670px;
-    padding-top:20px;
-  }
-  .headingFirstPara{
-    padding-top:10px;
-  }
-  .subheadingFullDiv{
-    padding-top:20px;
-    width:650px;
-  }
-  .subheadingFirstPara{
-    padding-top:20px;
-  }
-  .subheadingsecondpara{
-    padding-top:20px;
-    padding-bottom:20px;
-  }
-  .subheadingTwo{
-    padding-top:20px;
-    width:670px;
-  }
-  .subheadingTwoFirstPara{
-  padding-top:10px;
-  }
-  .points{
-  padding:30px;
-  }
-  .secondPoints{
-    padding:30px;
-  }
-  .blogPost{
-  padding-top:50px;
-    width:660px;
-  }
-  .blogFirstPara{
-  padding-top:20px;
-    padding-bottom:20px;
-  }
-  .blogSecondPara{
-    padding-top:20px;
-    padding-bottom:20px;
-  }
-  .newfeature{
-  padding-top:50px;
-    width:660px;
-  }
-  .newFeatureFirstPara{
-    padding-top:20px;
-  }
-  .newFeaturePoints{
-    padding:30px;
-  }
-  .newFeatureSecondPara{
-    padding-top:20px;
-  }
-  .twoButton{
-    display:flex;
-    padding-top:50px;
-    padding-bottom:50px;
-  }
-  .older{
-    border:1px solid blue;
-    padding:10px;
-    width:40px;
-    margin-right:5px;
-  }
-  .newer{
-      border:1px solid blue;
-    padding:10px;
-    width:40px;
-    margin-left:5px;
-  }
-  .blogTemplate{
-    border-top:1px solid grey;
-    text-align:center;
-    padding:30px;
-  }
-  .backTop{
-    padding:20px;
-  }
+}
+
+.thirdFullDiv {
+    display: flex;
+    padding-top: 30px;
+}
+
+.thirdLeftDiv {
+    width: 700px;
+}
+
+.aboutDiv {
+    width: 300px;
+    background: lightgrey;
+    padding: 20px;
+}
+
+.fireHose {
+    border-bottom: 1px solid grey;
+    width: 650px;
+    padding-bottom: 15px;
+}
+
+.fireHosePara {
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    width: 650px;
+}
+
+.samplePara {
+    padding-top: 20px;
+    width: 700px;
+}
+
+.sampleSecondFullPara {
+    padding-top: 10px;
+    width: 650px;
+}
+
+.sampleThirdPara {
+    padding-top: 10px;
+}
+
+.sampleFourthPara {
+    padding-top: 10px;
+    width: 700px;
+}
+
+.archives {
+    padding: 20px;
+}
+
+.march {
+    padding-top: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.february {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.january {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.december {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.november {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.october {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.september {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.august {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.july {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.june {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.may {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.april {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.elsewhere {
+    padding: 20px;
+}
+
+.github {
+    padding-top: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.twitter {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.facebook {
+    padding-top: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.headingFullDiv {
+    width: 670px;
+    padding-top: 20px;
+}
+
+.headingFirstPara {
+    padding-top: 10px;
+}
+
+.subheadingFullDiv {
+    padding-top: 20px;
+    width: 650px;
+}
+
+.subheadingFirstPara {
+    padding-top: 20px;
+}
+
+.subheadingsecondpara {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.subheadingTwo {
+    padding-top: 20px;
+    width: 670px;
+}
+
+.subheadingTwoFirstPara {
+    padding-top: 10px;
+}
+
+.points {
+    padding: 30px;
+}
+
+.secondPoints {
+    padding: 30px;
+}
+
+.blogPost {
+    padding-top: 50px;
+    width: 660px;
+}
+
+.blogFirstPara {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blogSecondPara {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newfeature {
+    padding-top: 50px;
+    width: 660px;
+}
+
+.newFeatureFirstPara {
+    padding-top: 20px;
+}
+
+.newFeaturePoints {
+    padding: 30px;
+}
+
+.newFeatureSecondPara {
+    padding-top: 20px;
+}
+
+.twoButton {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.older {
+    border: 1px solid blue;
+    padding: 10px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.newer {
+    border: 1px solid blue;
+    padding: 10px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.blogTemplate {
+    border-top: 1px solid grey;
+    text-align: center;
+    padding: 30px;
+}
+
+.backTop {
+    padding: 20px;
+    margin: auto;
+}
